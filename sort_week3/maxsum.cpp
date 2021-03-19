@@ -17,7 +17,7 @@ int arr[] = { 20, 30, 10, -40, 30, -70, 10, 20, 0, -70, -13, 130 };
 int max_sum(int l, int r){
 	if(l>r) return 0;
 	if(l==r) return max(0, arr[l]);
-
+	
 	int M = r/2;
 	
 	int lmax, rmax, sum;
@@ -37,14 +37,15 @@ int max_sum(int l, int r){
 }
 
 int main(void){
-	int result = max(0, 11);
+	int result = max_sum(0, 11);
 	cout<< result;
 	return 0;
 }
 
 
 int max(int a, int b){
-	return a > b ? a : b;
+	if(a>b) return a;
+	else return b;
 }
 
 int max3(int a, int b, int c){
