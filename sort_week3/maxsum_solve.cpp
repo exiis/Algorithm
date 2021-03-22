@@ -22,7 +22,7 @@ using std::cout;
 
 int max(int a, int b);
 int max3(int a, int b, int c);
-int arr[] = { 99 , -99, 98, -98, 97, -97, 91, -96, -5, -10 };
+int arr[] = { 500 , -99, 98, 100, 100, 100, 100, 101, -5, -10 };
 
 /* r : end point
  * l : start point */

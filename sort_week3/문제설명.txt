@@ -1,1 +1,7 @@
 #10989 : counting sort를 활용한 문제 해결 방법
+
+quick.cpp : quick sort 구현,
+		초기 입력 : N
+			   이후 N개의 숫자 입력
+		출력 : 정렬된 수열
+
